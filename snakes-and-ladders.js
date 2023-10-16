@@ -40,9 +40,9 @@ const start = () => {
         const validNumbers = [0, 6];
         if (validNumbers.includes(number)) {
             position = 1
-            console.log('You can start!');
+            console.log(`${number}! You can start!`);
         } else {
-            console.log('You cannot start yet!');
+            console.log(`${number} 😥... You cannot start yet!`);
         }
     }
 
